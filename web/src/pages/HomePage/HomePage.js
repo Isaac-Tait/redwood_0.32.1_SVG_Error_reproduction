@@ -1,12 +1,12 @@
 import { Link, routes } from '@redwoodjs/router'
 
-import logo from './mtntpcdng_lg.svg'
+import Logo from './mtntpcdng_lg.svg'
 
 const HomePage = () => {
   return (
     <>
       <h1>HomePage</h1>
-      <img src={logo} alt="alt text" />
+      <Logo />
       <p>
         Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
       </p>
